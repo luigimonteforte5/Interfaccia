@@ -1,12 +1,13 @@
 
 //classe che estende la classe astratta Forma
-public class Rettangolo extends Forma {
+public class Triangolo extends Forma {
 
 	//attributi della classe
 	private int base;
 	private int altezza;
 
-	public Rettangolo( int base, int altezza ) {
+	//metodo costruttore
+	public Triangolo( int base, int altezza ) {
 		this.base = base;
 		this.altezza = altezza;
 	}
@@ -32,6 +33,6 @@ public class Rettangolo extends Forma {
 	//override della funzione astratta calcolaArea estesa dalla classe forma
 	@Override
 	public int calcolaArea() {
-		return base * altezza;
+		return (base*altezza)/2;
 	}
 }

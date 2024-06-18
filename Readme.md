@@ -1,5 +1,3 @@
-Scrivere un programma che contenga una classe chiamata Forma ed un metodo chiamato calcolaArea() 
-che stampi l'area della forma.
+Scrivere un programma che contenga una classe astratta chiamata Forma ed un metodo astratto chiamato calcolaArea().
 
-Crea poi una sottoclasse chiamata Rettangolo che fa override del metodo calcolaArea() 
-per calcolare l'area del rettangolo.
+Crea poi due sottoclassi Rettangolo e Triangolo che estendono Forma ed implementano il metodo per il calcolo dell'area in maniera specifica.

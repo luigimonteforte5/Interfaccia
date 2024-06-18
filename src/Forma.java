@@ -1,7 +1,5 @@
-public class Forma {
+public abstract class Forma {
 
-	public int calcolaArea(){
-		System.out.println("Calcola l'area di una forma");
-		return 0;
-	}
+	//metodo astratto per calcolare l'area
+	public abstract int calcolaArea();
 }
