@@ -1,6 +1,6 @@
 
 //classe che estende la classe astratta Forma
-public class Triangolo extends Forma {
+public class Triangolo implements Forma {
 
 	//attributi della classe
 	private int base;

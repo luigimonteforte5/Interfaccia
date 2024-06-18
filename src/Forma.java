@@ -1,5 +1,5 @@
-public abstract class Forma {
+public interface Forma {
 
 	//metodo astratto per calcolare l'area
-	public abstract int calcolaArea();
+	int calcolaArea();
 }

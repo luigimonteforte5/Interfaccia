@@ -20,5 +20,7 @@ public class Main {
 		System.out.println("L'area del rettangolo è: " + areaRett);
 		int areaTri = triangolo.calcolaArea();
 		System.out.println("L'area del rettangolo è: " + areaTri);
+
+		sc.close();
 	}
 }
