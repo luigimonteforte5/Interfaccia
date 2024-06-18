@@ -19,7 +19,7 @@ public class Main {
 		int areaRett = rettangolo.calcolaArea();
 		System.out.println("L'area del rettangolo è: " + areaRett);
 		int areaTri = triangolo.calcolaArea();
-		System.out.println("L'area del rettangolo è: " + areaTri);
+		System.out.println("L'area del triangolo è: " + areaTri);
 
 		sc.close();
 	}
